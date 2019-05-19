@@ -1,0 +1,636 @@
+/* Flexible Formatting */
+
+html,body {
+    width: 100%;
+    height: 3112px;
+}
+
+body {
+    background: white;
+}
+
+#container {
+    width: 100%;
+    height: 250px;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION 1: Navigation Bar */
+
+.bar {
+    position: absolute;
+    right: 28px;
+
+    width: 700px;
+    height: 23px;
+
+    background-color: white;
+}
+
+#home {
+    position: absolute;
+    right: 349px;
+    top: 32px;
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #E7A58B;
+}
+
+#about{
+    position: absolute;
+    right: 218px;
+    top: 32px;
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #355C7D;
+}
+
+#stories{
+    position: absolute;
+    right: 0;
+    top: 32px;
+
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #E7A58B;
+}
+
+#home:hover {
+    color: #355C7D;
+}
+
+#about:hover{
+    color: #355C7D;
+}
+
+#stories:hover{
+    color: #355C7D;
+}
+
+/* SECTION TWO: Photo and Filter */
+
+#photo {
+    position: absolute;
+    top: 109px;
+    left: 0;
+
+    opacity: 0.7;
+
+    z-index: 0;
+}
+
+
+#photo_rectangle{
+    position: absolute;
+    top: 109px;
+    left: 0;
+
+    width: 908px;
+    height: 536px;
+    background-color: #F8B195;
+    opacity: 0.5;
+
+    z-index: 2;
+}
+
+/* SECTION TWO: Statistic */
+
+#stat_box_1{
+    position: absolute;
+    top: 212px;
+    left: 848px;
+
+    width: 168px;
+    height: 155px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 5;
+}
+
+#num_1{
+    position: absolute;
+    left: 12px;
+    top: -15px;
+
+    width: 130px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#word_1{
+    position: absolute;
+    left: 1px;
+    top: 102px;
+
+    width: 155px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#subhead_1{
+    position: absolute;
+    left: 883px;
+    top: 369px;
+
+    width: 450px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+
+    color: #355C7D;
+    opacity: 0.75;
+    z-index: 8;
+}
+
+#body_1{
+    position: absolute;
+    left: 919px;
+    top: 407px;
+
+    width: 312px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+
+    color: #F8B195;
+}
+
+#body_2{
+    position: absolute;
+    left: 919px;
+    top: 497px;
+
+    width: 312px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+
+    color: #F8B195;
+}
+
+/* SECTION 3: NO DE FACTO */
+
+#defacto_photo {
+    position: absolute;
+    top: 835px;
+    right: 0;
+
+    opacity: 0.7;
+
+    z-index: -1;
+}
+
+#defacto_pink{
+    width: 938px;
+    height: 551px;
+
+    position: absolute;
+    right: 0;
+    top: 835px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#defacto_stat_box{
+    position: absolute;
+    top: 1543px;
+    right: 641px;
+
+    width: 168px;
+    height: 155px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 5;
+
+}
+
+#defacto_big_word{
+    position: absolute;
+    left: 16px;
+    top: 1px;
+
+    width: 126px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#defacto_small_word{
+    position: absolute;
+    left: 6px;
+    top: 108px;
+
+    width: 146px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.5;
+}
+
+.subs{
+    z-index: 5;
+}
+
+#defacto_sub_1{
+    position: absolute;
+    right: 313px;
+    top: 1588px;
+
+    width: 317px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 900;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#defacto_sub_2{
+    position: absolute;
+    right: 214px;
+    top: 1617px;
+
+    width: 416px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 500;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#defacto_body_1{
+    position: absolute;
+    right: 981px;
+    top: 1088px;
+
+    width: 328px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#defacto_body_2{
+    position: absolute;
+    right: 981px;
+    top: 1189px;
+
+    width: 328px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+}
+
+/* SECTION 4: 1/3 SPECIES */
+
+#third_photo {
+    position: absolute;
+    top: 1635px;
+    left: 0;
+
+    opacity: 0.7;
+
+    z-index: -1;
+}
+
+#third_pink{
+    width: 938px;
+    height: 551px;
+
+    position: absolute;
+    left: 0;
+    top: 1635px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#third_stat_box{
+    position: absolute;
+    top: 2624px;
+    left: 128px;
+
+    width: 168px;
+    height: 155px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 5;
+
+}
+
+#third_big_word{
+    position: absolute;
+    left: 16px;
+    top: 2px;
+
+    width: 130px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 91px;
+
+    color: #355C7D;
+}
+
+#third_small_word{
+    position: absolute;
+    left: 16px;
+    top: 90px;
+
+    width: 126px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 38px;
+
+    color: #355C7D;
+    opacity: 0.5;
+}
+
+#third_sub_1{
+    position: absolute;
+    left: 307px;
+    top: 2607px;
+
+    width: 500px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 900;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#third_sub_2{
+    position: absolute;
+    left: 307px;
+    top: 2637px;
+
+    width: 416px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 500;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#third_body_1{
+    position: absolute;
+    left: 972px;
+    top: 1994px;
+
+    width: 330px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#third_body_2{
+    position: absolute;
+    left: 972px;
+    top: 2106px;
+
+    width: 319px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+/* SECTION 5: BUDGET */
+
+#budget_photo {
+    position: absolute;
+    top: 2437px;
+    right: 0;
+
+    opacity: 0.7;
+
+    z-index: -1;
+}
+
+#budget_pink{
+    width: 938px;
+    height: 551px;
+
+    position: absolute;
+    right: 0;
+    top: 2437px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#budget_stat_box{
+    position: absolute;
+    top: 3670px;
+    right: 640px;
+
+    width: 168px;
+    height: 155px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 5;
+}
+
+#budget_small1{
+    position: absolute;
+    left: 19px;
+    top: 8px;
+
+    width: 120px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.5;
+}
+
+#budget_small2{
+    position: absolute;
+    left: 13px;
+    top: 30px;
+
+    width: 132px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.5;
+}
+
+#budget_number{
+    position: absolute;
+    left: 8px;
+    top: 47px;
+
+    width: 137px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#budget_small3{
+    position: absolute;
+    left: 37px;
+    top: 109px;
+
+    width: 84px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.5;
+}
+
+#budget_sub_1{
+    position: absolute;
+    right: 342px;
+    top: 3615px;
+
+    width: 278px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 900;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#budget_sub_2{
+    position: absolute;
+    right: 263px;
+    top: 3645px;
+
+    width: 357px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    font-weight: 500;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#budget_body_1{
+    position: absolute;
+    right: 985px;
+    top: 2800px;
+
+    width: 326px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#budget_body_2{
+    position: absolute;
+    right: 1007px;
+    top: 2890px;
+
+    width: 304px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}
+
+#budget_body_3{
+    position: absolute;
+    right: 1015px;
+    top: 3095px;
+
+    width: 297px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+
+    color: #355C7D;
+    z-index: 5;
+}

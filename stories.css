@@ -1,0 +1,870 @@
+
+/* Flexible Formatting */
+
+html,body {
+    width: 100%;
+    height: 3112px;
+}
+
+body {
+    background: white;
+}
+
+#container {
+    width: 100%;
+    height: 250px;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION 1: Navigation Bar */
+
+.bar {
+    position: absolute;
+    right: 28px;
+
+    width: 700px;
+    height: 23px;
+
+    background-color: white;
+}
+
+#home {
+    position: absolute;
+    right: 349px;
+    top: 32px;
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #E7A58B;
+}
+
+#about{
+    position: absolute;
+    right: 218px;
+    top: 32px;
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #E7A58B;
+}
+
+#stories{
+    position: absolute;
+    right: 0;
+    top: 32px;
+
+
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+
+
+    color: #355C7D;
+}
+
+#home:hover {
+    color: #355C7D;
+}
+
+#about:hover{
+    color: #355C7D;
+}
+
+#stories:hover{
+    color: #355C7D;
+}
+
+/* SECTION TWO: Photo and Filter */
+
+#photo {
+    position: absolute;
+    top: 109px;
+    left: 0;
+
+    opacity: 0.7;
+
+    z-index: 0;
+}
+
+
+#photo_rectangle{
+    position: absolute;
+    top: 109px;
+    left: 0;
+
+    width: 908px;
+    height: 536px;
+    background-color: #F8B195;
+    opacity: 0.5;
+
+    z-index: 2;
+}
+
+/* SECTION TWO: Statistic */
+
+#stat_box_1{
+    position: absolute;
+    top: 212px;
+    left: 848px;
+
+    width: 168px;
+    height: 155px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 5;
+}
+
+#num_1{
+    position: absolute;
+    left: 14px;
+    top: -5px;
+
+    width: 130px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#word_1{
+    position: absolute;
+    left: 29px;
+    top: 71px;
+
+    width: 101px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#subhead_1{
+    position: absolute;
+    left: 883px;
+    top: 369px;
+
+    width: 355px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+
+    color: #355C7D;
+    opacity: 0.75;
+    z-index: 8;
+}
+
+#body_1{
+    position: absolute;
+    left: 919px;
+    top: 435px;
+
+    width: 312px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+
+    color: #F8B195;
+}
+
+/* SECTION THREE: ARROWS 1 */
+
+#arrowcontainer{
+    position: absolute;
+    top: 645px;
+    left: 1274px;
+
+    transform: rotate(90deg);
+
+}
+
+#arrows_1 {
+    position: absolute;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: bold;
+
+    color: #355C7D;
+
+}
+
+.first_arrow {
+    opacity: 0.1;
+}
+
+.second_arrow {
+    opacity: 0.2;
+}
+
+.third_arrow {
+    opacity: 0.3;
+}
+
+.fourth_arrow {
+    opacity: 0.4;
+}
+
+.fifth_arrow {
+    opacity: 0.5;
+}
+
+.sixth_arrow {
+     opacity: 0.6;
+ }
+
+.seventh_arrow {
+    opacity: 0.7;
+}
+
+.eighth_arrow {
+    opacity: 0.8;
+}
+
+.ninth_arrow {
+    opacity: 0.9;
+}
+
+/* SECTION FOUR: EAGLES (PHOTO 1) */
+
+#eagle_pink_1{
+    width: 223px;
+    height: 260px;
+
+    position: absolute;
+    left: 231px;
+    top: 914px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#eagle_photo_1{
+    width: 223px;
+    height: 260px;
+
+    position: absolute;
+    left: 231px;
+    top: 914px;
+
+    z-index: 0;
+    opacity: 0.5;
+}
+
+
+#eagle_stat_box_1{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 436px;
+    top: 1200px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#eagle_word_1{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 9px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#eagle_num_1{
+    width: 130px;
+
+    position: absolute;
+    left: 14px;
+    top: 54px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+
+#eagle_sub_1{
+    position: absolute;
+    left: 249px;
+    top: 1278px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#eagle_body_1{
+    width: 342px;
+
+    position: absolute;
+    left: 262px;
+    top: 1276px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+/* SECTION FOUR: EAGLES (PHOTO 2) */
+
+#eagle_pink_2{
+    width: 291px;
+    height: 205px;
+
+    position: absolute;
+    left: 834px;
+    top: 1027px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#eagle_photo_2{
+    width: 291px;
+    height: 205px;
+
+    position: absolute;
+    left: 834px;
+    top: 1027px;
+
+    z-index: 0;
+    opacity: 0.5;
+}
+
+#eagle_stat_box_2{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 693px;
+    top: 1380px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#eagle_word_2{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 18px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#eagle_num_2{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 74px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#eagle_sub_2{
+    width: 120px;
+
+    position: absolute;
+    left: 882px;
+    top: 1338px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#eagle_body_2{
+    width: 266px;
+
+    position: absolute;
+    left: 908px;
+    top: 1329px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+/* SECTION FIVE: BEAR (PHOTO 1) */
+
+#bear_pink_1{
+    width: 337px;
+    height: 224px;
+
+    position: absolute;
+    left: 346px;
+    top: 1830px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#bear_photo_1{
+    width: 337px;
+    height: 224px;
+
+    position: absolute;
+    left: 346px;
+    top: 1830px;
+
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#bear_stat_box_1{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 224px;
+    top: 2450px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#bear_word_1{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 9px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#bear_num_1{
+    width: 130px;
+
+    position: absolute;
+    left: 14px;
+    top: 54px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#bear_sub_1{
+    width: 205px;
+
+    position: absolute;
+    left: 402px;
+    top: 2275px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#bear_body_1{
+    width: 342px;
+
+    position: absolute;
+    left: 426px;
+    top: 2245px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+/* SECTION FIVE: BEAR (PHOTO 2) */
+
+#bear_pink_2{
+    width: 249px;
+    height: 294px;
+
+    position: absolute;
+    left: 816px;
+    top: 1619px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#bear_photo_2{
+    width: 249px;
+    height: 294px;
+
+    position: absolute;
+    left: 816px;
+    top: 1619px;
+
+    opacity: 0.5;
+    z-index: 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#bear_stat_box_2{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 1048px;
+    top: 2200px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#bear_word_2{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 9px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#bear_num_2{
+    width: 130px;
+
+    position: absolute;
+    left: 14px;
+    top: 54px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#bear_sub_2{
+    width: 160px;
+
+    position: absolute;
+    left: 836px;
+    top: 2135px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#bear_body_2{
+    width: 342px;
+
+    position: absolute;
+    left: 862px;
+    top: 2095px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+/* SECTION SIX: WOLF (PHOTO 1) */
+
+#wolf_pink_1{
+    width: 244px;
+    height: 294px;
+
+    position: absolute;
+    left: 230px;
+    top: 2499px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#wolf_photo_1{
+    width: 244px;
+    height: 294px;
+
+    position: absolute;
+    left: 230px;
+    top: 2499px;
+
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#wolf_stat_box_1{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 457px;
+    top: 3285px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#wolf_word_1{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 9px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#wolf_num_1{
+    width: 130px;
+
+    position: absolute;
+    left: 14px;
+    top: 54px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#wolf_sub_1{
+    width: 130px;
+
+    position: absolute;
+    left: 261px;
+    top: 3140px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#wolf_body_1{
+    width: 299px;
+
+    position: absolute;
+    left: 285px;
+    top: 3075px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+/* SECTION SIX: WOLF (PHOTO 2) */
+
+#wolf_pink_2{
+    width: 383px;
+    height: 255px;
+
+    position: absolute;
+    left: 774px;
+    top: 2585px;
+
+    background-color: #F8B195;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#wolf_photo_2{
+    width: 383px;
+    height: 255px;
+
+    position: absolute;
+    left: 774px;
+    top: 2585px;
+
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#wolf_stat_box_2{
+    width: 168px;
+    height: 155px;
+
+    position: absolute;
+    left: 672px;
+    top: 3520px;
+    box-sizing: border-box;
+
+    border: 5px solid #355C7D;
+
+    z-index: 2;
+}
+
+#wolf_word_2{
+    width: 144px;
+
+    position: absolute;
+    left: 7px;
+    top: 20px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+    opacity: 0.75;
+}
+
+#wolf_num_2{
+    width: 130px;
+
+    position: absolute;
+    left: 7px;
+    top: 74px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+    color: #355C7D;
+}
+
+#wolf_sub_2{
+    width: 205px;
+
+    position: absolute;
+    left: 866px;
+    top: 3188px;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+#wolf_body_2{
+    width: 360px;
+
+    position: absolute;
+    left: 892px;
+    top: 3110px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+
+    color: #355C7D;
+    z-index: 3;
+}
+
+.rellax1 {
+    transition: transform .6s;
+}
+
+.rellax2{
+    transition: transform 1s;
+}
+
+.rellax3{
+    transition: transform 2s;
+
+}
+
+.rellax4{
+    transition: transform 3s;
+}
